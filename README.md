@@ -36,6 +36,12 @@ For more verbose logs, start docker while overriding the default entrypoint:
 
 TODO: Attach to docker container and reload based on changes made to mounted config files.
 
+## Examples
+
+_The following examples should have git tags associated with them_
+
+* Example 1 - Hosting multiple applications at a root directory. Tag: `e1-multi-directory`
+
 ## Resources
 
 [NGINX Docker](https://hub.docker.com/_/nginx/)
