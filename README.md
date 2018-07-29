@@ -41,12 +41,15 @@ TODO: Attach to docker container and reload based on changes made to mounted con
 _The following examples should have git tags associated with them_
 
 * Example 1 - Hosting multiple applications at a root directory. Tag: `e1-multi-directory`
+* Example 2 - Simple proxy setup. Tag: `e2-simple-proxy`
 
 ## Resources
 
 [NGINX Docker](https://hub.docker.com/_/nginx/)
 
 [NGINX Beginners Guide](https://nginx.org/en/docs/beginners_guide.html)
+
+Photos courtesy of [RSPCA WOAW](https://www.flickr.com/photos/woaw/)
 
 ## Contributing
 

@@ -7,3 +7,5 @@ COPY html-home /usr/share/nginx/html/home
 COPY foo-app /usr/share/nginx/apps/foo
 
 COPY bar-app /usr/share/nginx/apps/bar
+
+COPY images /usr/share/nginx/images
