@@ -10,9 +10,33 @@ Some examples of using NGINX, based in Docker containers.
 
 [git](https://git-scm.com/downloads) - Alternatively, download a zip of this GitHub repo.
 
-## Examples
+## Running This Project
 
-### Static Content & Reverse Proxy
+`docker build -t nginx-example-1 .`
+
+`docker run --name nginx-demo -d -p 8080:80 nginx-example-1`
+
+open `http://localhost:8080/`
+
+Try opening `http://localhost:8080/apps/foo` or `http://localhost:8080/apps/bar`
+
+To kill, rebuild, and relaunch:
+
+`docker kill nginx-demo && docker rm nginx-demo && docker build -t nginx-example-1 . && docker run --name nginx-demo -d -p 8080:80 nginx-example-1`
+
+### Debugging
+
+To view the NGINX logs:
+
+`docker logs nginx-demo`
+
+For more verbose logs, start docker while overriding the default entrypoint:
+
+`docker run --name nginx-demo -d -p 8080:80 nginx-example-1 -d nginx nginx-debug -g 'daemon off;'`
+
+TODO: Attach to docker container and reload based on changes made to mounted config files.
+
+## Examples
 
 _The following examples should have git tags associated with them_
 
