@@ -12,18 +12,21 @@ Some examples of using NGINX, based in Docker containers.
 
 ## Examples
 
-### Static Content & Reverse Proxy
+Found in their respective directories
 
-_The following examples should have git tags associated with them_
+### HTTP Basic
 
-* Example 1 - Hosting multiple applications at a root directory. Tag: `e1-multi-directory`
-* Example 2 - Simple proxy setup. Tag: `e2-simple-proxy`
+### Reverse Proxy
+
+### Static File Server
 
 ## Resources
 
 [NGINX Docker](https://hub.docker.com/_/nginx/)
 
 [NGINX Beginners Guide](https://nginx.org/en/docs/beginners_guide.html)
+
+[Dockerized OAuth2 Proxy](https://github.com/a5huynh/oauth2_proxy)
 
 Photos courtesy of [RSPCA WOAW](https://www.flickr.com/photos/woaw/)
 

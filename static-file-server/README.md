@@ -27,7 +27,3 @@ Attach to a running Docker container:
 Navigate to Logs:
 
 `cd /var/log/nginx`
-
-WIP:
-
-`$ docker run --name my-nginx -v /host/path/nginx.conf:/etc/nginx/nginx.conf:ro -d nginx nginx-debug -g 'daemon off;'`
